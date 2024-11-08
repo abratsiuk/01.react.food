@@ -5,11 +5,11 @@ function Header() {
         <nav className='light-blue lighten-3'>
             <div className='nav-wrapper'>
                 <a
-                    href='https://github.com/abratsiuk/01.react.shop'
+                    href='https://github.com/abratsiuk/01.react.food'
                     className='brand-logo brown-text text-darken-4'
                     target='_blank'
                 >
-                    React Shop
+                    React Food
                 </a>
                 <ul
                     id='nav-mobile'
@@ -17,7 +17,7 @@ function Header() {
                 >
                     <li>
                         <a
-                            href='https://github.com/abratsiuk/01.react.shop'
+                            href='https://github.com/abratsiuk/01.react.food'
                             className='brown-text text-darken-4'
                             target='_blank'
                         >

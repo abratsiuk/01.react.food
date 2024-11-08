@@ -10,7 +10,7 @@ function Footer() {
                     </span>
                     <a
                         className='brown-text text-darken-4 right'
-                        href='https://github.com/abratsiuk/01.react.shop'
+                        href='https://github.com/abratsiuk/01.react.food'
                         target='_blank'
                     >
                         Repo
