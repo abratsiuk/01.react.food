@@ -1,28 +1,36 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
         <nav className='light-blue lighten-3'>
             <div className='nav-wrapper'>
-                <a
-                    href='https://github.com/abratsiuk/01.react.food'
+                <Link
+                    to='/'
                     className='brand-logo brown-text text-darken-4'
-                    target='_blank'
                 >
                     React Food
-                </a>
+                </Link>
                 <ul
                     id='nav-mobile'
                     className='right hide-on-med-and-down'
                 >
                     <li>
-                        <a
-                            href='https://github.com/abratsiuk/01.react.food'
+                        <Link
+                            to={`/about`}
                             className='brown-text text-darken-4'
-                            target='_blank'
                         >
-                            Repo
-                        </a>
+                            About
+                        </Link>
+                    </li>
+
+                    <li>
+                        <Link
+                            to={`/contacts`}
+                            className='brown-text text-darken-4'
+                        >
+                            Contact
+                        </Link>
                     </li>
                 </ul>
             </div>

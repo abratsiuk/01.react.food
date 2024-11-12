@@ -1,6 +1,5 @@
 {
   "name": "temp",
-  "homepage": "https://abratsiuk.github.io/01.react.food/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +9,7 @@
     "gh-pages": "^6.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^6.28.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -41,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@eslint/js": "^9.11.1",
     "eslint": "^8.57.1",
     "eslint-plugin-react": "^7.37.2",

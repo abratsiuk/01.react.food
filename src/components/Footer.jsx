@@ -12,6 +12,7 @@ function Footer() {
                         className='brown-text text-darken-4 right'
                         href='https://github.com/abratsiuk/01.react.food'
                         target='_blank'
+                        rel='noreferrer'
                     >
                         Repo
                     </a>
