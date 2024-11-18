@@ -20,7 +20,7 @@ function CategoryItem(props) {
             </div>
             <div class='card-action'>
                 <Link
-                    to={`/category/${idCategory}`}
+                    to={`/category/${strCategory}`}
                     className='btn'
                 >
                     Watch category

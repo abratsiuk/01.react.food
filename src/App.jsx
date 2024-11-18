@@ -6,7 +6,8 @@ import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Contact } from './pages/Contact';
 import { NotFound } from './pages/NotFound';
-import { Movie } from './pages/Movie';
+import { Category } from './pages/Category';
+import { Meal } from './components/Meal';
 
 function App() {
     return (
@@ -28,8 +29,12 @@ function App() {
                             element={<Contact />}
                         />
                         <Route
-                            path='/movies/:id'
-                            element={<Movie />}
+                            path='/category/:name'
+                            element={<Category />}
+                        />
+                        <Route
+                            path='/meal/:idMeal'
+                            element={<Meal />}
                         />
                         <Route element={<NotFound />} />
                     </Routes>
