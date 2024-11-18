@@ -7,7 +7,7 @@ import { About } from './pages/About';
 import { Contact } from './pages/Contact';
 import { NotFound } from './pages/NotFound';
 import { Category } from './pages/Category';
-import { Meal } from './components/Meal';
+import { Recipe } from './pages/Recipe';
 
 function App() {
     return (
@@ -33,8 +33,8 @@ function App() {
                             element={<Category />}
                         />
                         <Route
-                            path='/meal/:idMeal'
-                            element={<Meal />}
+                            path='/recipe/:idMeal'
+                            element={<Recipe />}
                         />
                         <Route element={<NotFound />} />
                     </Routes>
