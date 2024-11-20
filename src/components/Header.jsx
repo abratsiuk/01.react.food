@@ -15,7 +15,7 @@ function Header() {
                     id='nav-mobile'
                     className='right hide-on-med-and-down'
                 >
-                    <li>
+                    {/* <li>
                         <Link
                             to={`/about`}
                             className='brown-text text-darken-4'
@@ -31,7 +31,7 @@ function Header() {
                         >
                             Contact
                         </Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </nav>

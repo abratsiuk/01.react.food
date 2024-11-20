@@ -20,14 +20,14 @@ function App() {
                             path='/'
                             element={<Home />}
                         />
-                        <Route
+                        {/* <Route
                             path='/about'
                             element={<About />}
                         />
                         <Route
                             path='/contacts'
                             element={<Contact />}
-                        />
+                        /> */}
                         <Route
                             path='/category/:name'
                             element={<Category />}
