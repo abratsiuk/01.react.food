@@ -1,5 +1,6 @@
 {
   "name": "temp",
+  "homepage": "https://abratsiuk.github.io/01.react.food/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
