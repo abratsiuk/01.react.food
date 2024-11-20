@@ -16,7 +16,7 @@ function Meal(props) {
             </div>
             <div class='card-action'>
                 <Link
-                    to={`/recipe/${idMeal}`}
+                    to={`/meal/${idMeal}`}
                     className='btn'
                 >
                     Watch recipe

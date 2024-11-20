@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 function CategoryItem(props) {
     const {
-        idCategory,
+        // idCategory,
         strCategoryThumb,
         strCategoryDescription,
         strCategory,

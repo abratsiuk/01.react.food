@@ -33,7 +33,7 @@ function App() {
                             element={<Category />}
                         />
                         <Route
-                            path='/recipe/:idMeal'
+                            path='/meal/:idMeal'
                             element={<Recipe />}
                         />
                         <Route element={<NotFound />} />
